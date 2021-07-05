@@ -1,0 +1,23 @@
+.display {
+  font-family: "VT323", monospace;
+  margin: 1em;
+  padding-right: 1.5em;
+  padding-left: 1.5em;
+  height: 5em;
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  grid-auto-rows: minmax(80px, auto);
+  border-radius: 16px;
+  background-color: #616161;
+}
+
+.inputScreen {
+  width: 100%;
+  font-size: 4em;
+  text-align: right;
+}
+
+.operatorScreen {
+  font-size: 4em;
+  text-align: left;
+}
